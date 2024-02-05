@@ -60,15 +60,15 @@
 
   programs.fish = {
     enable = true;
+    shellAliases = {
+      bc = "bc -lq";
+      gpu= "git push -u origin (git branch --show-current)";
+    };
     interactiveShellInit = ''
       source (/etc/profiles/per-user/kwells/bin/starship init fish --print-full-init | psub)
       
       set fish_greeting # Disable greeting
-
-      alias bc="bc -lq"
       set -x BC_ENV_ARGS $HOME/.bc
-
-      alias gpu='git push -u origin (git branch --show-current)'
     '';
   };
 
