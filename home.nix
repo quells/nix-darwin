@@ -36,9 +36,16 @@
   home.file = {
     ".bc".source = dotfiles/bc;
     ".bin/FrontFinderWindowPath.scpt".source = dotfiles/FrontFinderWindowPath.scpt;
-    ".config/fish/fish.config".source = dotfiles/fish/config.fish;
     ".tmux.conf".source = dotfiles/tmux.conf;
     ".vimrc".source = dotfiles/vimrc;
+
+    ".config/fish/fish.config".source = dotfiles/fish/config.fish;
+    ".config/fish/functions/cdf.fish".source = dotfiles/fish/functions/cdf.fish;
+    ".config/fish/functions/f.fish".source = dotfiles/fish/functions/f.fish;
+    ".config/fish/functions/fallback.fish".source = dotfiles/fish/functions/fallback.fish;
+    ".config/fish/functions/lips.fish".source = dotfiles/fish/functions/lips.fish;
+    ".config/fish/functions/timemachine.fish".source = dotfiles/fish/functions/timemachine.fish;
+
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
