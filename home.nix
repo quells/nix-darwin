@@ -11,9 +11,11 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
+    pkgs.ffmpeg
     pkgs.fzf
     pkgs.just
     pkgs.ripgrep
+    pkgs.starship
 
     pkgs.vimPlugins.vim-nix
 
@@ -39,17 +41,11 @@
     ".tmux.conf".source = dotfiles/tmux.conf;
     ".vimrc".source = dotfiles/vimrc;
 
-    ".config/fish/fish.config".source = dotfiles/fish/config.fish;
     ".config/fish/functions/cdf.fish".source = dotfiles/fish/functions/cdf.fish;
     ".config/fish/functions/f.fish".source = dotfiles/fish/functions/f.fish;
     ".config/fish/functions/fallback.fish".source = dotfiles/fish/functions/fallback.fish;
     ".config/fish/functions/lips.fish".source = dotfiles/fish/functions/lips.fish;
     ".config/fish/functions/timemachine.fish".source = dotfiles/fish/functions/timemachine.fish;
-
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
@@ -60,6 +56,16 @@
 
   home.sessionVariables = {
     EDITOR = "vim";
+  };
+
+  programs.fish = {
+    enable = true;
+    interactiveShellInit = ''
+      source (/etc/profiles/per-user/kwells/bin/starship init fish --print-full-init | psub)
+      set fish_greeting # Disable greeting
+      alias bc="bc -lq"
+      set -x BC_ENV_ARGS $HOME/.bc
+    '';
   };
 
   programs.git = {
