@@ -6,7 +6,6 @@
     pkgs.git
     pkgs.iterm2
     pkgs.vim
-    pkgs.vscode
     pkgs.wget
   ];
 
