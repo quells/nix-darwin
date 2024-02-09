@@ -11,11 +11,24 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
+    pkgs.ack
+    pkgs.btop
+    pkgs.coreutils
     pkgs.ffmpeg
     pkgs.fzf
+    pkgs.graphviz
+    pkgs.jq
     pkgs.just
+    pkgs.mosh
+    pkgs.mtr
+    pkgs.pv
     pkgs.ripgrep
     pkgs.starship
+    pkgs.sqlite
+    pkgs.tmux
+    pkgs.unixtools.watch
+    pkgs.xz
+    pkgs.yt-dlp
 
     pkgs.vimPlugins.vim-nix
 
