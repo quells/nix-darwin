@@ -1,0 +1,15 @@
+default:
+  @just --list
+
+check-nix:
+  darwin-rebuild check --flake ~/.config/nix-darwin
+
+update-nix:
+  darwin-rebuild switch --flake ~/.config/nix-darwin
+
+edit-nix-system:
+  vim ~/.config/nix-darwin/configuration.nix
+
+edit-nix-user:
+  vim ~/.config/nix-darwin/home.nix
+
