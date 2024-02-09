@@ -60,6 +60,8 @@
     ".config/fish/functions/lips.fish".source = dotfiles/fish/functions/lips.fish;
     ".config/fish/functions/timemachine.fish".source = dotfiles/fish/functions/timemachine.fish;
 
+    ".config/starship.toml".source = dotfiles/starship.toml;
+
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose
