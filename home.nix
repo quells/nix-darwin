@@ -12,6 +12,7 @@
   # environment.
   home.packages = [
     pkgs.ack
+    pkgs.bat
     pkgs.btop
     pkgs.coreutils
     pkgs.ffmpeg

@@ -13,3 +13,6 @@ edit-nix-system:
 edit-nix-user:
   vim ~/.config/nix-darwin/home.nix
 
+push-nix:
+  pushd ~/.config/nix-darwin && git add . && git commit && git push -u origin main
+
