@@ -16,3 +16,6 @@ edit-nix-user:
 push-nix:
   pushd ~/.config/nix-darwin && git add . && git commit && git push -u origin main
 
+pull-nix:
+  pushd ~/.config/nix-darwin && git pull origin main -r
+
