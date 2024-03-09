@@ -11,6 +11,7 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
+    pkgs._1password
     pkgs.ack
     pkgs.bat
     pkgs.btop
