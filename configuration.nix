@@ -5,7 +5,7 @@
   [ pkgs.curl
     pkgs.git
     pkgs.iterm2
-    pkgs.vim
+    pkgs.neovim
     pkgs.wget
   ];
 
