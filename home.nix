@@ -30,6 +30,7 @@
     pkgs.sqlite
     pkgs.tmux
     pkgs.unixtools.watch
+    pkgs.wrk
     pkgs.xz
     pkgs.yt-dlp
 
