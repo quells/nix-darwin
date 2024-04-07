@@ -90,6 +90,8 @@
       
       set fish_greeting # Disable greeting
       set -x BC_ENV_ARGS $HOME/.bc
+
+      alias vim='/run/current-system/sw/bin/nvim'
     '';
   };
 
