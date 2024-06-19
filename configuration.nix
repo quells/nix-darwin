@@ -4,7 +4,6 @@
   environment.systemPackages =
   [ pkgs.curl
     pkgs.git
-    pkgs.iterm2
     pkgs.neovim
     pkgs.wget
   ];
