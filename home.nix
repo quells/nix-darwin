@@ -16,6 +16,7 @@
     pkgs.bat
     pkgs.btop
     pkgs.coreutils
+    pkgs.darwin.trash
     pkgs.duckdb
     pkgs.ffmpeg
     pkgs.fzf
