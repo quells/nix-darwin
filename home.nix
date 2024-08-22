@@ -83,8 +83,9 @@
   programs.fish = {
     enable = true;
     shellAliases = {
-      bc = "bc -lq";
-      gpu= "git push -u origin (git branch --show-current)";
+      bc= "bc -lq";
+      gpu = "git push -u origin (git branch --show-current)";
+      start-ssh-agent = "eval (ssh-agent -c)";
     };
     interactiveShellInit = ''
       source (/etc/profiles/per-user/kwells/bin/starship init fish --print-full-init | psub)
