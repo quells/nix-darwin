@@ -62,8 +62,10 @@
     ".config/fish/functions/cdf.fish".source = dotfiles/fish/functions/cdf.fish;
     ".config/fish/functions/f.fish".source = dotfiles/fish/functions/f.fish;
     ".config/fish/functions/fallback.fish".source = dotfiles/fish/functions/fallback.fish;
+    ".config/fish/functions/halp.fish".source = dotfiles/fish/functions/halp.fish;
     ".config/fish/functions/lips.fish".source = dotfiles/fish/functions/lips.fish;
     ".config/fish/functions/timemachine.fish".source = dotfiles/fish/functions/timemachine.fish;
+    ".config/fish/functions/warn.fish".source = dotfiles/fish/functions/warn.fish;
 
     ".config/starship.toml".source = dotfiles/starship.toml;
 
