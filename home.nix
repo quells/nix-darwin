@@ -96,6 +96,12 @@
       set -x BC_ENV_ARGS $HOME/.bc
 
       alias vim='/run/current-system/sw/bin/nvim'
+
+      set -l SSH_AGENT_RUNNING (ps -e | grep ssh-agent | grep -v grep)
+      if test -z "$SSH_AGENT_RUNNING"
+          echo "starting ssh-agent"
+          eval (ssh-agent -c) >/dev/null 2>/dev/null
+      end
     '';
   };
 
