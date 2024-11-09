@@ -411,7 +411,17 @@
     },
     "darwin.trash": {
       "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#darwin.trash",
-      "source": "nixpkg"
+      "source": "nixpkg",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "path": "/nix/store/v8dc2mzmbd4lp7cfmpprsg6bdrccvq34-trash-0.9.2",
+              "default": true
+            }
+          ]
+        }
+      }
     },
     "duckdb@latest": {
       "last_modified": "2024-11-04T15:55:45Z",

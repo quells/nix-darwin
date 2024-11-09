@@ -38,8 +38,11 @@
       "push": [
         "devbox global push git@github.com:quells/nix-darwin.git"
       ],
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
+      "pull": [
+        "devbox global pull git@github.com:quells/nix-darwin.git"
+      ],
+      "put_scripts": [
+        "./dotfiles.sh"
       ]
     }
   }
