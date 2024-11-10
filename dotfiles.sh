@@ -21,6 +21,7 @@ function copy() {
 }
 
 mkdir -p "$HOME/.config/fish/completions"
+mkdir -p "$HOME/.config/fish/conf.d"
 mkdir -p "$HOME/.config/fish/functions"
 
 TRIM="$DIR/dotfiles/"
