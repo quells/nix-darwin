@@ -14,9 +14,18 @@ function trash() {
 function copy() {
     SRC=$1; shift
     DST=$1; shift
-    trash "$HOME/$DST"
-    ln -s "$DIR/$SRC" "$HOME/$DST"
+    echo "copy $DST"
+    trash "$DST"
+    ln -s "$SRC" "$DST"
     return
 }
 
-copy 'dotfiles/.bc' '.bc'
+mkdir -p "$HOME/.config/fish/completions"
+mkdir -p "$HOME/.config/fish/functions"
+
+TRIM="$DIR/dotfiles/"
+for f in $(find dotfiles -type f)
+do
+    f="$( realpath "$f" )"
+    copy "$f" "$HOME/${f#"$TRIM"}"
+done

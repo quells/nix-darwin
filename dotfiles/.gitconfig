@@ -1,0 +1,5 @@
+[user]
+	name = Kai Wells
+	email = support@kaiwells.me
+[core]
+	editor = nvim
