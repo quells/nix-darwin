@@ -7,6 +7,9 @@ set -x BC_ENV_ARGS $HOME/.bc
 
 fzf_configure_bindings --git_status=\cg
 
+# ctrl-z to pause vim; ctrl-k to return
+bind \ck 'if test -z (commandline) ; fg; or clear; else ; clear; commandline ""; end'
+
 alias bc='bc -lq'
 alias gb='git checkout -b'
 alias gbs='git-branch-select'
