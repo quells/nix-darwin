@@ -18,4 +18,5 @@ alias gpu='git push -u origin (git branch --show-current)'
 alias gpf='git push -f origin (git branch --show-current)'
 alias ll='ls -lahL'
 alias strip-colors='sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2};?)?)?[mGK]//g"'
+alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 alias vim=(which nvim)
