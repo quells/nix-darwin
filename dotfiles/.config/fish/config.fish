@@ -20,3 +20,9 @@ alias ll='ls -lahL'
 alias strip-colors='sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2};?)?)?[mGK]//g"'
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 alias vim=(which nvim)
+
+if status is-interactive
+    if not set -q ZELLIJ
+        exec zellij
+    end
+end
