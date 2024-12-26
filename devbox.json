@@ -28,7 +28,8 @@
     "git@latest",
     "neovim@latest",
     "wget@latest",
-    "fish@latest"
+    "fish@latest",
+    "zellij@latest"
   ],
   "shell": {
     "init_hook": [
