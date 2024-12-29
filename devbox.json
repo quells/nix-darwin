@@ -29,7 +29,8 @@
     "neovim@latest",
     "wget@latest",
     "fish@latest",
-    "zellij@latest"
+    "zellij@latest",
+    "tokei@latest"
   ],
   "shell": {
     "init_hook": [

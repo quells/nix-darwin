@@ -1583,6 +1583,54 @@
         }
       }
     },
+    "tokei@latest": {
+      "last_modified": "2024-12-03T12:40:06Z",
+      "resolved": "github:NixOS/nixpkgs/566e53c2ad750c84f6d31f9ccb9d00f823165550#tokei",
+      "source": "devbox-search",
+      "version": "12.1.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9r4c9d1y17nzwhx96ygnwbd9p7jmiqxq-tokei-12.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9r4c9d1y17nzwhx96ygnwbd9p7jmiqxq-tokei-12.1.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rrbsipnzzpgcnjsp1nijlqd2mjnhkhly-tokei-12.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rrbsipnzzpgcnjsp1nijlqd2mjnhkhly-tokei-12.1.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mpxnjnfl5a47dqspbakz6j3vm6jx0q2c-tokei-12.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mpxnjnfl5a47dqspbakz6j3vm6jx0q2c-tokei-12.1.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lfw8kz3wmfwlg2lcmd09p38mxs4c32x4-tokei-12.1.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lfw8kz3wmfwlg2lcmd09p38mxs4c32x4-tokei-12.1.2"
+        }
+      }
+    },
     "unixtools.watch@latest": {
       "last_modified": "2024-11-16T04:25:12Z",
       "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#unixtools.watch",
