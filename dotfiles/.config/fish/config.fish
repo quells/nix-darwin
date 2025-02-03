@@ -20,3 +20,6 @@ alias ll='ls -lahL'
 alias strip-colors='sed -r "s/\x1B\[([0-9]{1,3}(;[0-9]{1,2};?)?)?[mGK]//g"'
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 alias vim=(which nvim)
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/kwells/.cache/lm-studio/bin
