@@ -3,6 +3,6 @@ function lips --description 'List local and external IP addresses'
         set ip (ipconfig getifaddr $interface)
         [ "$ip" != "" ]; and echo "$interface: $ip"; or echo "$interface: inactive"
     end
-    set ext_ip (dig +short myip.opendns.com @resolver1.opendns.com)
+    set ext_ip (myip -4)
     [ "$ext_ip" != "" ]; and echo "ext: $ext_ip"; or echo "ext: inactive"
 end
