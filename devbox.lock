@@ -1896,66 +1896,66 @@
       }
     },
     "yt-dlp@latest": {
-      "last_modified": "2025-07-28T17:09:23Z",
-      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#yt-dlp",
+      "last_modified": "2025-09-18T16:33:27Z",
+      "resolved": "github:NixOS/nixpkgs/f4b140d5b253f5e2a1ff4e5506edbf8267724bde#yt-dlp",
       "source": "devbox-search",
-      "version": "2025.07.21",
+      "version": "2025.09.05",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/klf859kvkyzq3qw8wcxwl5q841zn6wny-yt-dlp-2025.07.21",
+              "path": "/nix/store/04ik64npzlqa0dx9kj86y86gfc8la30a-yt-dlp-2025.09.05",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/wph5q9h0pdzb771dkrsggjcyyrr41lvq-yt-dlp-2025.07.21-dist"
+              "path": "/nix/store/5rism4r8aj1yg6aymwcgzi0wcb5pwvj8-yt-dlp-2025.09.05-dist"
             }
           ],
-          "store_path": "/nix/store/klf859kvkyzq3qw8wcxwl5q841zn6wny-yt-dlp-2025.07.21"
+          "store_path": "/nix/store/04ik64npzlqa0dx9kj86y86gfc8la30a-yt-dlp-2025.09.05"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5hnc5w9k15gk19kfvwqsy1n8dc5ka1wv-yt-dlp-2025.07.21",
+              "path": "/nix/store/h2dgjvpl07rcfzz3x0m71bz1vb1dbysq-yt-dlp-2025.09.05",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/h6h46v5c6prbvlzxs5navcdys7xip13i-yt-dlp-2025.07.21-dist"
+              "path": "/nix/store/1dwr7ghkbhjy718vzvh8qszjcwwr9vj8-yt-dlp-2025.09.05-dist"
             }
           ],
-          "store_path": "/nix/store/5hnc5w9k15gk19kfvwqsy1n8dc5ka1wv-yt-dlp-2025.07.21"
+          "store_path": "/nix/store/h2dgjvpl07rcfzz3x0m71bz1vb1dbysq-yt-dlp-2025.09.05"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/fs6cg5fb408jshs4sijdwl3lzqqagdy2-yt-dlp-2025.07.21",
+              "path": "/nix/store/vz3vk2880qp8fbhqgm6xb7slpm6s1lx1-yt-dlp-2025.09.05",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/aacsfbnzqcjbq7ndbfi2dbbiqxg2f5l1-yt-dlp-2025.07.21-dist"
+              "path": "/nix/store/h0qkbg5jjj414jgparv9mg5rvkjjqvvj-yt-dlp-2025.09.05-dist"
             }
           ],
-          "store_path": "/nix/store/fs6cg5fb408jshs4sijdwl3lzqqagdy2-yt-dlp-2025.07.21"
+          "store_path": "/nix/store/vz3vk2880qp8fbhqgm6xb7slpm6s1lx1-yt-dlp-2025.09.05"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/w0h06fc5hi1mpp0bk5zig04564ssbrig-yt-dlp-2025.07.21",
+              "path": "/nix/store/vfq9g4ad810cvhjyppy7i8h8x07zs3x9-yt-dlp-2025.09.05",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/hymyycm9d51qwb5p5q4gqs4b0mrj2cnn-yt-dlp-2025.07.21-dist"
+              "path": "/nix/store/pn4af6r1s6jzqgvhj0fjdzg5myiilaif-yt-dlp-2025.09.05-dist"
             }
           ],
-          "store_path": "/nix/store/w0h06fc5hi1mpp0bk5zig04564ssbrig-yt-dlp-2025.07.21"
+          "store_path": "/nix/store/vfq9g4ad810cvhjyppy7i8h8x07zs3x9-yt-dlp-2025.09.05"
         }
       }
     }
