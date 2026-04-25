@@ -29,7 +29,11 @@
     "wget@latest",
     "wrk@latest",
     "xz@latest",
-    "yt-dlp@latest"
+    "yt-dlp@latest",
+    "uv@latest",
+    "jujutsu@latest",
+    "pigz@latest",
+    "awscli2@latest"
   ],
   "shell": {
     "init_hook": [
