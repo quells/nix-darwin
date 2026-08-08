@@ -3,3 +3,5 @@
 	email = support@kaiwells.me
 [core]
 	editor = nvim
+[credential "https://github.com"]
+	useHttpPath = true

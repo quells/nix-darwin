@@ -31,9 +31,9 @@
     "xz@latest",
     "yt-dlp@latest",
     "uv@latest",
-    "jujutsu@latest",
     "pigz@latest",
-    "awscli2@latest"
+    "awscli2@latest",
+    "xcodegen@latest"
   ],
   "shell": {
     "init_hook": [
