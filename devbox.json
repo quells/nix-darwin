@@ -33,7 +33,9 @@
     "uv@latest",
     "pigz@latest",
     "awscli2@latest",
-    "xcodegen@latest"
+    "xcodegen@latest",
+    "pnpm@latest",
+    "nodejs_24@latest"
   ],
   "shell": {
     "init_hook": [
